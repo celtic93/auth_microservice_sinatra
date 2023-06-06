@@ -6,4 +6,5 @@ RSpec.configure do |config|
   end
 end
 
+FactoryBot.use_parent_strategy = false
 FactoryBot.define { to_create { |model| model.save } }
