@@ -25,6 +25,8 @@ gem 'activesupport', '~> 6.0.0', require: false
 gem 'fast_jsonapi', '~> 1.5'
 
 gem 'bunny', '~> 2.15.0'
+gem 'rack-ougai', '~> 0.2.1'
+gem 'rack-request-id', '~> 0.0.4'
 
 group :development, :test do
   gem 'pry'

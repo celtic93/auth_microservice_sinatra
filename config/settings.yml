@@ -6,3 +6,7 @@ pagination:
   page_size: 10
 app:
   secret: secret
+  name: auth
+logger:
+  path: log/app.log
+  level: info
